@@ -1,0 +1,27 @@
+
+input.toggle { display: none; }
+input.toggle ~ div { height: 0px; margin: .2rem; overflow: hidden; }
+input.toggle:checked ~ div { height: 180px; }
+#window {
+margin-top: 150px;
+margin-left: 100px;
+height : 200px;
+width : 200px;
+transition:all 1s ease;
+background-color : red;
+
+}
+#window:target {
+margin-top: 150px;
+margin-left: 900px;
+height : 200px;
+width : 200px;
+transition:all 1s ease;
+background-color : red;
+
+}
+#window:hover {
+
+background-color : blue;
+
+}
